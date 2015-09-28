@@ -1,5 +1,5 @@
 {
-  "name": "kozz/yii-xss-filter",
+  "name": "yadelivery/yii-xss-filter",
   "description": "Yii XSS Filter",
   "keywords": ["Yii", "Filter", "Xss", "YiiXss"],
   "license": "BSD-3-Clause",
@@ -22,7 +22,7 @@
     }
   },
   "require": {
-    "yiisoft/yii": "~1.1",
+    "yadelivery/yii": "dev-master",
     "php":">=5.3"
   },
   "require-dev": {
@@ -31,5 +31,11 @@
     "phpunit/phpunit-selenium":"*",
     "phpunit/dbunit":"*",
     "phpunit/php-invoker":"*"
-  }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/YaDelivery/yii.git"
+    }
+  ]
 }
