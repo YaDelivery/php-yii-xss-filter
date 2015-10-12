@@ -108,6 +108,11 @@ class YXssFilter extends CFilter
       return $data;
     }
 
+    if(is_numeric($data))
+    {
+      return $data;
+    }
+
     if(trim($data) === '')
     {
       return $data;
